@@ -1,9 +1,6 @@
 import type { NextPage } from 'next';
+import Home from '@/components/page/home/Index';
 
-const Home: NextPage = () => (
-    <div className="text-4xl space-y-6 font-bold flex flex-col items-center text-gray-800 mt-10 ">
-        Test Page
-    </div>
-);
+const HomePage: NextPage = () => <Home />;
 
-export default Home;
+export default HomePage;

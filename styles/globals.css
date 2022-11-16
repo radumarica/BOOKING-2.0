@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    background-color: '#e3dede';
+}
+
+.wallet-btn {
+    background: -webkit-linear-gradient(top left, #7a3ae8, #8037ad);
+    background: -moz-linear-gradient(top left, #7a3ae8, #8037ad);
+    background: linear-gradient(to bottom right, #7a3ae8, #8037ad);
+    color: white !important;
+}
+
+.sol-btn {
+    background: -webkit-linear-gradient(top left, #5423ed, #5346b7);
+    background: -moz-linear-gradient(top left, #5423ed, #5346b7);
+    background: linear-gradient(to bottom right, #5423ed, #5346b7);
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 6px !important;
+    border-radius: 14px;
+    background-color: white;
+    height: 0;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 13px;
+    background-color: #a39f9f;
+    /* border: 0.5px solid #555555; */
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+    display: block;
+    width: 100%;
+    color: black !important;
+}
