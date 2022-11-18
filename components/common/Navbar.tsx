@@ -79,15 +79,7 @@ const Header: FC = () => {
                                                             type="button"
                                                             className="py-3 px-4 w-full fond-lg font-semibold font-exo rounded-md wallet-btn text-white "
                                                         >
-                                                            My Current Bookings
-                                                        </button>
-                                                    </Dropdown.Item>
-                                                    <Dropdown.Item>
-                                                        <button
-                                                            type="button"
-                                                            className="py-3 px-4 w-full fond-lg font-semibold font-exo rounded-md wallet-btn text-white "
-                                                        >
-                                                            My Previous Bookings
+                                                            Change Wallet
                                                         </button>
                                                     </Dropdown.Item>
                                                     <Dropdown.Item>
@@ -144,15 +136,7 @@ const Header: FC = () => {
                                                             type="button"
                                                             className="py-3 px-4 w-full fond-lg font-semibold font-exo rounded-md wallet-btn text-white "
                                                         >
-                                                            My Current Bookings
-                                                        </button>
-                                                    </Dropdown.Item>
-                                                    <Dropdown.Item>
-                                                        <button
-                                                            type="button"
-                                                            className="py-3 px-4 w-full fond-lg font-semibold font-exo rounded-md wallet-btn text-white "
-                                                        >
-                                                            My Previous Bookings
+                                                            Change Wallet
                                                         </button>
                                                     </Dropdown.Item>
                                                     <Dropdown.Item>
@@ -230,17 +214,10 @@ const Header: FC = () => {
                                                         type="button"
                                                         className="py-3 px-4 w-full fond-lg font-semibold font-exo rounded-md wallet-btn text-white "
                                                     >
-                                                        My Current Bookings
+                                                        Change Connected Wallet
                                                     </button>
                                                 </Dropdown.Item>
-                                                <Dropdown.Item>
-                                                    <button
-                                                        type="button"
-                                                        className="py-3 px-4 w-full fond-lg font-semibold font-exo rounded-md wallet-btn text-white "
-                                                    >
-                                                        My Previous Bookings
-                                                    </button>
-                                                </Dropdown.Item>
+
                                                 <Dropdown.Item>
                                                     <button
                                                         onClick={() => disconnect()}

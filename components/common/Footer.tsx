@@ -5,8 +5,8 @@ import { BsFacebook, BsTwitter, BsInstagram, BsGithub, BsDribbble } from 'react-
 
 const FooterSection: FC = () => (
     <Footer className="rounded-none">
-        <div className="w-full ">
-            <div className="flex justify-evenly items-center py-8 px-6  md:grid-cols-4">
+        <div className="w-full rounded-none ">
+            <div className="flex justify-evenly rounded-none items-center py-8 px-6  md:grid-cols-4">
                 <div>
                     <Footer.Title title="Company" />
                     <Footer.LinkGroup col>
